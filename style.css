@@ -20,7 +20,7 @@ header nav {
 }
 
 main {
-  padding: 20px 100px;
+  padding: 40px 100px;
   background-color: #ededed;
   height: 100vh;
   overflow-y: scroll;
@@ -65,6 +65,7 @@ footer {
     gap: 15px;
     justify-content: center;
     align-items: center;
+
 }
 
 .news-card{
@@ -86,14 +87,14 @@ footer {
 }
 
 .news-card img{
-    height: 240px;
-    height: 240px;
+    width: 100%;
+    
     object-fit: cover;
 }
 
 
 
-@media screen and (min-width: 430px) and (max-width:932px) {
+@media screen and (min-width: 430px) and (max-width:1024px) {
   header nav {
     display: flex;
     flex-direction: column;
@@ -101,4 +102,32 @@ footer {
     padding:15px 5px;
     background-color: #003a3a;
   }
+
+  .news-content{
+    display:flex ;
+    flex-direction: column;
+}
+
+.news-card{
+  display: flex;
+  width: 100%;
+  border:none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 5px;
+}
+
+.news-card img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+main {
+  padding: 40px;
+  background-color: #ededed;
+  height: 100vh;
+  overflow-y: scroll;
+}
 }

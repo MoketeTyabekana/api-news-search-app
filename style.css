@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 100vh;
+   
     text-align: center;
 }
 
@@ -20,7 +20,12 @@ header nav{
     background-color: #003a3a;
 }
 
-
+main {
+    padding: 20px 100px;
+    background-color: #ededed;
+    height: 100vh;
+    overflow-y: scroll;
+}
 
 nav h1{
     color: #fff;
@@ -48,6 +53,12 @@ input{
 
 input:focus button:focus{
     outline: none;
+}
+
+footer{
+    background-color: #003a3a;
+    color: orange;
+    padding: 20px 100px;
 }
 
 

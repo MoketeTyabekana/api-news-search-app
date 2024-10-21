@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    background-color: #003a3a;
+}
+
+
+
+nav h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+   
+}
+
+button{
+    border: none;
+    width: 100px;
+    padding: 8px 5px;
+    border-radius: 0 2px 2px 0;
+    background-color: orange;
+    color: #fff;
+    font-weight: 600;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    width: 250px;
+    border-radius: 2px 0 0 2px;
+}
+
+input:focus button:focus{
+    outline: none;
+}
+
+
+
+
